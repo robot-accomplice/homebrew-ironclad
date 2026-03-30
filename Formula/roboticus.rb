@@ -5,25 +5,25 @@ class Roboticus < Formula
   desc "Autonomous agent runtime — single binary, streaming LLM, semantic caching, zero-trust A2A"
   homepage "https://roboticus.ai"
   license "Apache-2.0"
-  version "0.11.1"
+  version "0.11.2+hotfix.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/robot-accomplice/roboticus/releases/download/v0.11.1/roboticus-0.11.1-aarch64-darwin.tar.gz"
-      sha256 "3ad1d5147b207f5ae6d94aa38d5e2d28bdbcbc8197fdbed274ffcaa9dfcd3bc5"
+      url "https://github.com/robot-accomplice/roboticus/releases/download/v0.11.2+hotfix.1/roboticus-0.11.2+hotfix.1-aarch64-darwin.tar.gz"
+      sha256 "c3b9dee73aecdb7b6fbb485983b3668d6ea74ca669015ce00683a2f3b1b2fc2f"
     else
-      url "https://github.com/robot-accomplice/roboticus/releases/download/v0.11.1/roboticus-0.11.1-x86_64-darwin.tar.gz"
-      sha256 "b277341d7fe2f013e94e2fb590dc25eea4afd9ccca6c33caea92592f736749d9"
+      url "https://github.com/robot-accomplice/roboticus/releases/download/v0.11.2+hotfix.1/roboticus-0.11.2+hotfix.1-x86_64-darwin.tar.gz"
+      sha256 "0bc72f2d781173a6d279d3e08d59facc50a67c3b8a36d49f34f0c544cffb8cb9"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/robot-accomplice/roboticus/releases/download/v0.11.1/roboticus-0.11.1-aarch64-linux.tar.gz"
-      sha256 "2185c9e4af3dc6016d1e983f1ef7c2dafc34da5fe347b8b44971d6003753a000"
+      url "https://github.com/robot-accomplice/roboticus/releases/download/v0.11.2+hotfix.1/roboticus-0.11.2+hotfix.1-aarch64-linux.tar.gz"
+      sha256 "b804e45f4d23c529ceb7e50bd5d32efe2b459576edbb93f40350409e6c61044a"
     else
-      url "https://github.com/robot-accomplice/roboticus/releases/download/v0.11.1/roboticus-0.11.1-x86_64-linux.tar.gz"
-      sha256 "b317ff87c6f48bf875b9c4faa338a76bdd8f1beef588466f38f35875d4b081c2"
+      url "https://github.com/robot-accomplice/roboticus/releases/download/v0.11.2+hotfix.1/roboticus-0.11.2+hotfix.1-x86_64-linux.tar.gz"
+      sha256 "128271bfd27c2b06be73547ab00d2d2278f0709bf9298f7241dc0fd454dfe6f7"
     end
   end
 
