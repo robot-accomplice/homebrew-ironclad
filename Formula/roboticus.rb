@@ -5,25 +5,25 @@ class Roboticus < Formula
   desc "Autonomous agent runtime — single binary, streaming LLM, semantic caching, zero-trust A2A"
   homepage "https://roboticus.ai"
   license "Apache-2.0"
-  version "0.11.3"
+  version "0.11.4"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/robot-accomplice/roboticus/releases/download/v0.11.3/roboticus-0.11.3-aarch64-darwin.tar.gz"
-      sha256 "3ded0dd7c7fe9b1ccd3832a29484f04c6ae8c7b6b88da61db6f2bf868645c8da"
+      url "https://github.com/robot-accomplice/roboticus/releases/download/v0.11.4/roboticus-0.11.4-aarch64-darwin.tar.gz"
+      sha256 "6059d643b177cf3341fa58f45ff464ad07a8e15dc00f3694154a0a4462dbb5b3"
     else
-      url "https://github.com/robot-accomplice/roboticus/releases/download/v0.11.3/roboticus-0.11.3-x86_64-darwin.tar.gz"
-      sha256 "ad680faf6ae9b98df39562c4c6b092c4eb7ba1213660e8cf69b9ac493e95629c"
+      url "https://github.com/robot-accomplice/roboticus/releases/download/v0.11.4/roboticus-0.11.4-x86_64-darwin.tar.gz"
+      sha256 "2f67c2ac420e20151e35b740e19de40ddee8620e3139a8c4e9a778e0fd959d70"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/robot-accomplice/roboticus/releases/download/v0.11.3/roboticus-0.11.3-aarch64-linux.tar.gz"
-      sha256 "4c3698f35b0fd616f7a4f645c62117ace770b72e11720fb5ac15222efa223630"
+      url "https://github.com/robot-accomplice/roboticus/releases/download/v0.11.4/roboticus-0.11.4-aarch64-linux.tar.gz"
+      sha256 "073f5d7a21bfb590d537515911b52cf01ce5a3c1a20ab380ee8f1bf5d3016ef8"
     else
-      url "https://github.com/robot-accomplice/roboticus/releases/download/v0.11.3/roboticus-0.11.3-x86_64-linux.tar.gz"
-      sha256 "6a84ed7d9d75fdb9c6db884c801f6f11215d0ebf6a96bd58bfa2d279f3ac1933"
+      url "https://github.com/robot-accomplice/roboticus/releases/download/v0.11.4/roboticus-0.11.4-x86_64-linux.tar.gz"
+      sha256 "ae126ed1803fd7393fedfdcac438fe2453ff5abe6e956d06fa3c2c474f3989ff"
     end
   end
 
